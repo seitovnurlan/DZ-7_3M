@@ -19,7 +19,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         
         let startVC = StartViewController()
-        let tabOneBarItem = UITabBarItem(title: "",
+        let tabOneBarItem = UITabBarItem(title: "Favorites",
                                          image: UIImage(systemName: "star"),
                                          selectedImage: UIImage(systemName: "Star"))
         
@@ -27,19 +27,19 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         navBar.tabBarItem = tabOneBarItem
     
         let secondVC = SecondViewController()
-        let tabTwoBarItem = UITabBarItem(title: "",
+        let tabTwoBarItem = UITabBarItem(title: "Recent",
                                          image: UIImage(systemName: "clock"),
                                          selectedImage: UIImage(systemName: "clock"))
         secondVC.tabBarItem = tabTwoBarItem
         
         let thirdVC = ThirdViewController()
-        let tabThreeBarItem = UITabBarItem(title: "",
+        let tabThreeBarItem = UITabBarItem(title: "Files",
                                          image: UIImage(systemName: "folder"),
                                          selectedImage: UIImage(systemName: "folder"))
         thirdVC.tabBarItem = tabThreeBarItem
         
         let fourthVC = FourdViewController()
-        let tabFourBarItem = UITabBarItem(title: "",
+        let tabFourBarItem = UITabBarItem(title: "Notofocations",
                                          image: UIImage(systemName: "bell"),
                                          selectedImage: UIImage(systemName: "bell"))
         fourthVC.tabBarItem = tabFourBarItem
